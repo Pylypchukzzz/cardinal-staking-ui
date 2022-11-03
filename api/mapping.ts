@@ -2309,11 +2309,11 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     links: [
       {
         text: 'About',
-        value: 'https://biopunk.staking/about.html',
+        value: 'https://staking.biopunk.store/about.html',
       },
       {
         text: 'Calculator',
-        value: 'https://biopunk.staking/about.html',
+        value: 'https://staking.biopunk.store/calculator.html',
       },
       {
         text: 'Telegram',
