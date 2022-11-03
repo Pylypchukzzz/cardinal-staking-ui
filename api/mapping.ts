@@ -2272,5 +2272,69 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       accent: '#672394',
       fontColor: '#e8e6d9',
     }
+  },
+  {
+    name: 'BIOPUNK',
+    displayName: 'Biopunk Staking',
+    nameInHeader: true,
+    stakePoolAddress: new PublicKey(
+      '4cVZzCcGWvoq6yMWeVJhxNkneQ2ZbVFUp6MmcWoHW2Fz'
+    ),
+    hostname: 'staking.biopunk.store',
+    hideFooter: true,
+    hideAllowedTokens: true,
+    websiteUrl: 'https://yougifted.store/biopunk',
+    receiptType: ReceiptType.Original,
+    tokenStandard: TokenStandard.NonFungible,
+    // styles to apply to the whole stake pool
+    styles: {
+      fontFamily: 'Industry, sans-serif',
+      fontWeight: 500,
+    },
+    // Colors object to style the stake page
+    colors: {
+      primary: '#181818',
+      secondary: '#177b7b',
+      backgroundSecondary: 'rgb(24 24 24 / 90%)',
+      fontColor: '#F2F2F2',
+    },
+    imageUrl:
+      'https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/biopunk_pfp_1663758714391.gif',
+    // Background image for poolq
+    backgroundImage:
+      'https://cyan-keen-chinchilla-417.mypinata.cloud/ipfs/QmctNdFiAEfmjckmTrZwWS1YfRx4LYJshHu7CnsJjS816r',
+
+    // Website url if specified will be navigated to when the image in the header is clicked
+    maxStaked: 10000,
+    links: [
+      {
+        text: 'About',
+        value: 'https://biopunk.staking/about.html',
+      },
+      {
+        text: 'Calculator',
+        value: 'https://biopunk.staking/about.html',
+      },
+      {
+        text: 'Telegram',
+        value: 'https://t.me/yougiftednft',
+      },
+      {
+        text: 'Twitter',
+        value: 'https://twitter.com/You_Gifted_NFT',
+      },
+      {
+        text: 'Discord',
+        value: 'https://discord.com/biopunk',
+      },
+      {
+        text: 'Buy Biopunk NFT',
+        value: 'https://magiceden.io/marketplace/biopunk',
+      },
+      {
+        text: 'Biopunk Website',
+        value: 'https://yougifted.store/biopunk#rec467978952',
+      },
+    ],
   }
 ]
