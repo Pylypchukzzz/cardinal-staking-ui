@@ -2305,7 +2305,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       'https://cyan-keen-chinchilla-417.mypinata.cloud/ipfs/QmctNdFiAEfmjckmTrZwWS1YfRx4LYJshHu7CnsJjS816r',
 
     // Website url if specified will be navigated to when the image in the header is clicked
-    maxStaked: 10000,
+    maxStaked: 2534,
     links: [
       {
         text: 'About',
