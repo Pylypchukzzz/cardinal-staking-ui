@@ -24,9 +24,9 @@ export const ENVIRONMENTS: Environment[] = [
   {
     label: 'mainnet-beta',
     primary:
-      process.env.MAINNET_PRIMARY || 'https://solana-api.projectserum.com',
+      process.env.MAINNET_PRIMARY || 'https://green-cold-pond.solana-mainnet.quiknode.pro/bcbe90536e56e1ada8cb67bc91c55f734097d352/',
     secondary:
-      process.env.MAINNET_SECONDARY || 'https://solana-api.projectserum.com',
+      process.env.MAINNET_SECONDARY || 'https://green-cold-pond.solana-mainnet.quiknode.pro/bcbe90536e56e1ada8cb67bc91c55f734097d352/',
   },
   {
     label: 'testnet',
